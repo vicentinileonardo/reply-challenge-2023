@@ -1,0 +1,7 @@
+[./input_files/00-example.txt]: 77 - Time elapsed: 0.00039
+[./input_files/01-chilling-cat.txt]: 13599 - Time elapsed: 0.00041
+[./input_files/02-swarming-ant.txt]: 134192 - Time elapsed: 0.00325
+[./input_files/03-input-anti-greedy.txt]: 3203257 - Time elapsed: 0.12139
+[./input_files/04-input-low-points.txt]: 2163098 - Time elapsed: 0.75974
+[./input_files/05-input-opposite-points-holes.txt]: 1188 - Time elapsed: 0.44013
+[./input_files/06-input-reply-running-man.txt]: -47141018 - Time elapsed: 0.09894

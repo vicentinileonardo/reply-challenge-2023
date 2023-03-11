@@ -1,0 +1,48 @@
+0 5 R R R R R R R R R R R R R R R
+0 6 R R R R R R R R R R R
+0 8 R R R R R R R
+0 9 R R R R R R R R R R R R R R R R R
+0 11 R R R R R R R R R R R R
+0 19 R R R R
+0 20 R R R R R R R R R R R R R R R
+0 24 R R R R R R R R R R R
+0 25 R R R R R R R R R R R R R R R R R R
+0 26 R R R R R R R
+0 28 R R R R R R R R R R R R R R R R R
+0 34 R R R R R R R R R R R R R R R
+0 35 R R R R R R R
+0 37 R R R R R R R R R R R R R R R R R R R
+0 38 R R R R R R R
+0 39 R R R R R R R R R R R R R R R R R R R
+0 40 R R R R R R R R R R R R R
+0 41 R R R R R R R R R R R R R R R R R R
+0 48 R R R R
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
