@@ -16,14 +16,12 @@ class Snake:
         self.movements.append(direction)
     
     def out(self):
-
         if self.skip:
             return ''
         else:
             out_list =  [
                 str(self.start_x),
-                str(self.start_y),
-               
+                str(self.start_y), 
             ]
 
             out_list.extend(self.movements)
@@ -31,7 +29,6 @@ class Snake:
             return ' '.join(out_list)
     
     def __repr__(self):
-        # start_x, start_y, length
         return f"[{self.number}]: start_x: {self.start_x}, start_y: {self.start_y}, length: {self.length}"
 
 def number_grid(grid):
@@ -72,7 +69,6 @@ def read_input(path):
                 wormholes.append((i,j))
                 rows_with_wormholes.append(i)
 
-    #grid = number_grid(grid)
     return C, R, S, snakes, grid, wormholes, rows_with_wormholes
 
 def output(path, snakes):
@@ -88,11 +84,8 @@ def output_points(path, input_file, points, time):
         f.write('\n')
 
 def place_snakes():
-
-    # loop through rows 
     last_placed = None
     for row in range(R):
-        # if row has wormholes
         if row in rows_with_wormholes:
             continue  # skip row
         else:
@@ -110,6 +103,7 @@ def place_snakes():
                         # check if next position is still in grid
                         if i + 1 < C:
                             snake.move('R')
+                            # add points of all positions occupied by snake
                             add_points(row, i + 1)
                         else:
                             break
@@ -127,7 +121,6 @@ def add_points(i, j):
     global current_points
     current_points += grid[i][j]
     
-
 if __name__ == '__main__':
 
     INPUT_PATH_0 = './input_files/00-example.txt'
@@ -197,7 +190,6 @@ if __name__ == '__main__':
     time_elapsed = round(time.time() - start_time, 5)
     print(f"Time elapsed: {time_elapsed} seconds")
     output_points('points.txt', INPUT_PATH, current_points, time_elapsed)
-
     
 #TODO:
 # next: find best window in the row to place snake
