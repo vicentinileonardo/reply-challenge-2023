@@ -10,10 +10,10 @@ Leveraging only the first 5 input files, the final score that can be obtained is
 The 6th input file is not included in this repository because, if used, the score would be lowered.
 
 ## Repository structure
-`greedy.py` contains the solution.
-`input_files` contains the input files.
-`output_files` contains the output files already generated.
-`points.txt` contains the points obtained for each input file.
++ `greedy.py` contains the solution.
++ `input_files` contains the input files.
++ `output_files` contains the output files already generated.
++ `points.txt` contains the points obtained for each input file.
 
 ## How to run
 The solution can be run using the following command:
