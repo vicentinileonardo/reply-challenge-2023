@@ -2,7 +2,7 @@
 
 A (very) **greedy** implementation of a valid solution for the **Reply Challenge 2023** (Standard Edition).
 
-The solution is not optimized at all. It is just a greedy (and trivial) implementation of a valid solution.
+The solution is not optimized at all. It is just a greedy (and **trivial**) implementation of a valid solution.
 
 The main purpose of this repository is only to show that even this trivial solution can be used to get a relatively good score and do not want to provide a smart solution.
 
