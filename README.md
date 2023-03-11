@@ -9,7 +9,9 @@ The main purpose of this repository is only to show that even this trivial solut
 ## Idea
 
 The idea is to just place snakes horizontally, on rows that do not contain wormholes, starting from 0 position. 
+
 Therefore the rows are covered from left to right for the length of snakes.
+
 If the number of rows is not enough, ramaining snakes to be placed are simply not used (blank line in output file).
 
 ## Score
