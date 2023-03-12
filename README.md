@@ -12,12 +12,13 @@ The idea is to just place snakes horizontally, on rows that do not contain wormh
 
 Therefore the rows are covered from left to right for the length of snakes.
 
-If the number of rows is not enough, ramaining snakes to be placed are simply not used (blank line in output file).
+If the number of rows is not enough, remaining snakes to be placed are simply not used (blank line in output file).
 
 ## Score
 
 Leveraging only the first 5 input files, the final score that can be obtained is 5,515,411 that would have achieved the 148th position out of 3990 teams on the leaderboard.
-The 6th input file is not included in this repository because, if used, the score would be lowered.
+
+The 6th input file is not considered because, if used, the score would be lowered.
 
 ## Repository structure
 + `greedy.py` contains the solution.
