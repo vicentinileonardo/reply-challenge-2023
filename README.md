@@ -4,7 +4,7 @@ A (very) **greedy** implementation of a valid solution for the **Reply Challenge
 
 The solution is not optimized at all. It is just a greedy (and **trivial**) implementation of a valid solution.
 
-The main purpose of this repository is only to show that even this trivial solution can be used to get a relatively good score and do not want to provide a smart solution.
+The main purpose of this repository is only to show that even this trivial solution can be used to get a relatively good score (useful for the University League leaderboard) and do not want to provide a smart solution.
 
 ## Idea
 
