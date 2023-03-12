@@ -1,6 +1,6 @@
 # Reply Challenge 2023
 
-A (very) **greedy** implementation of a valid solution for the **Reply Challenge 2023** (Standard Edition).
+A (very) **greedy** implementation of a valid solution for the **Reply Code Challenge 2023** (Standard Edition).
 
 The solution is not optimized at all. It is just a greedy (and **trivial**) implementation of a valid solution.
 
